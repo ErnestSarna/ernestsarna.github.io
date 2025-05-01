@@ -13,13 +13,19 @@ function Intro(){
         { id: 4, text: //JavaScript
             <i class="devicon-javascript-plain"></i>
         },
-        { id: 5, text: //React
+        { id: 5, text: //JQuery
+            <i class="devicon-jquery-plain-wordmark"></i>
+        },
+        { id: 6, text: //React
             <i class="devicon-react-original-wordmark"></i>
         },
-        { id: 6, text: //Java
+        { id: 7, text: //SQL
+            <i class="devicon-azuresqldatabase-plain"></i>
+        },
+        { id: 8, text: //Java
             <i class="devicon-java-plain-wordmark"></i>
         },
-        { id: 7, text: //C++
+        { id: 9, text: //C++
             <i class="devicon-cplusplus-plain"></i>
         },
 
