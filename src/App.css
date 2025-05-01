@@ -3,7 +3,7 @@
   color: white;
 }
 
-h1, p{
+h1, h2, p{
   margin: 0;
   font-weight: 300;
 }
@@ -63,7 +63,30 @@ i{
   font-size: 65px;
 }
 
-#projects{
-  height: 90vh;
+#projects-display{
+  height: fit-content;
   background-color: #350310;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+img:hover{
+  width: 850px;
+  height: 500px;
+}
+
+.image-button{
+  height: fit-content;
+  background-color: #282c34;
+  color: white;
+  border: 0;
+  border-radius: 50%;
 }
