@@ -33,6 +33,8 @@ function Projects(){
                 <div className="project-tech my-2 d-flex">
                     <p className="badge rounded-pill">React</p>
                     <p className="badge rounded-pill">CSS</p>
+                    <p className="badge rounded-pill">Node.js</p>
+                    <p className="badge rounded-pill">SQL</p>
                 </div>
                 <Project desc={fedoraDesc} imgSrc="/fedora/" />
             </div>

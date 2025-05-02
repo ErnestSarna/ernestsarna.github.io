@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="App">
       <Intro />
-      <div style={{height: '40px', background: 'linear-gradient(to bottom, #282c34, #350310)'}}></div>
+      <div style={{height: '40px', background: 'linear-gradient(to bottom, #2E2E2E, #4B0012)'}}></div>
       <Projects />
+      <div style={{height: '40px', background: 'linear-gradient(to bottom, #4B0012, #350310)'}}></div>
       <Footer />
     </div>
   );

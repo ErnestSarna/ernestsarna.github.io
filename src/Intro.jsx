@@ -31,8 +31,8 @@ function Intro(){
 
       ];    
     
-    return(
-        <div style={{backgroundColor: '#282c34'}} className="py-5">
+    return( //#282c34
+        <div style={{backgroundColor: '#2E2E2E'}} className="py-5">
             <div id="intro" className="pb-5">
                 <div className="name me-5">
                     <h1 className="display-1">Ernest</h1>
