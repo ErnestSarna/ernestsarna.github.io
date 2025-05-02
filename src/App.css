@@ -8,15 +8,23 @@ h1, h2, p{
   font-weight: 300;
 }
 
-#footer a{
-  color: white;
-}
-
 #footer{
   background-color: #350310;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+#footer a{
+  color: white;
+}
+#footer svg:hover{
+  transform: scale(1.3);
+}
+
+#footer p{
+  opacity: 0.5;
 }
 
 #intro{
@@ -85,8 +93,7 @@ i{
 }
 
 img:hover{
-  width: 850px;
-  height: 500px;
+  transform: scale(1.5);
 }
 
 .image-button{
