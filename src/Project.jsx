@@ -21,8 +21,8 @@ function Project(props){
     
     return (
         <div>
-            <div className='d-flex justify-content-center mt-3 mb-2'>
-                <img src={source} alt='project display' width="600" height="300"></img>
+            <div className='d-flex justify-content-center mb-2'>
+                <img src={source} alt='project display' width="600" height="300" style={{borderRadius: "0.3rem"}}></img>
                 <ul>
                     {props.desc.map((item) => 
                         <li>{item}</li>

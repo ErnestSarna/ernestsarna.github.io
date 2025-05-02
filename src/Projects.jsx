@@ -18,13 +18,22 @@ function Projects(){
 
             <div className="project my-3" >
                 <h2>Quoting Tool</h2>
-                <p>HTML,CSS,JS</p>
+                <div className="project-tech my-2 d-flex">
+                    <p className="badge rounded-pill">HTML</p>
+                    <p className="badge rounded-pill">CSS</p>
+                    <p className="badge rounded-pill">Bootstrap</p>
+                    <p className="badge rounded-pill">JavaScript</p>
+                    <p className="badge rounded-pill">JQuery</p>
+                </div>
                 <Project desc={quotingToolDesc} imgSrc="/quoting_tool/" />
             </div>
 
             <div className="project mb-3">
                 <h2>Fedora Learning</h2>
-                <p>React, CSS</p>
+                <div className="project-tech my-2 d-flex">
+                    <p className="badge rounded-pill">React</p>
+                    <p className="badge rounded-pill">CSS</p>
+                </div>
                 <Project desc={fedoraDesc} imgSrc="/fedora/" />
             </div>
         </div>
