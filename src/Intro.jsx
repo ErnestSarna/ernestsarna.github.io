@@ -28,6 +28,9 @@ function Intro(){
         { id: 9, text: //C++
             <i class="devicon-cplusplus-plain"></i>
         },
+        { id: 10, text: //Git
+            <i class="devicon-git-plain-wordmark"></i>
+        },
 
       ];    
     
@@ -42,7 +45,7 @@ function Intro(){
                     Committed to continuous learning, driving impactful contributions, and fostering effective collaboration to ensure the success of team objectives.
                     </p>
             </div>
-            <div className="skills">
+            <div className="skills ms-4">
                 {hexagons.map((hex) => (
                     <div key={hex.id} className="skill-cell">
                         <div>{hex.text}</div>

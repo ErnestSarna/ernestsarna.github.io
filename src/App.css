@@ -34,7 +34,10 @@ a{
   flex-wrap: wrap;
   gap: 5px;
   justify-content: center;
+  height: fit-content;
   width: 40%;
+  max-width: 600px;
+  min-width: 350px;
 }
 
 .skill-cell {
@@ -63,32 +66,15 @@ i{
   font-size: 65px;
 }
 
-#projects-display{
-  height: fit-content;
-  background-color: #4B0012;
-  display: flex;
-}
-
-.project{
-  width: fit-content;
-  flex-direction: column;
-  display: flex;
-}
-
 .left{
   text-align: left;
-  align-self: left;
-  margin-left: 15%;
+  padding-left: 15%;
 }
 
 .right{
   text-align: right;
   justify-content: flex-end;
   padding-right: 15%;
-}
-
-.right .project-tech{
-  justify-content: flex-end;
 }
 
 .project-tech > p{

@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 
 function Project(props){
     const [activeImage, setActiveImage] = useState(1);
-    const [source, setSource] = useState(props.imgSrc + "1.png");
+    const [source, setSource] = useState(props.info.path + "1.png");
 
     useEffect(() => {
-        setSource(props.imgSrc + `${activeImage}.png`);
-    }, [props.imgSrc, activeImage]);
+        setSource(props.info.path + `${activeImage}.png`);
+    }, [props.info.path, activeImage]);
 
     function handleBack(){
         if(activeImage > 1){
@@ -38,10 +38,16 @@ function Project(props){
                         </button>
                     </div>
                 </div>
-                
-                <p className={props.reverse ? "me-4 desc" : "ms-4 desc"}>{props.desc}</p>
+                <div className={props.reverse ? "me-4 desc" : "ms-4 desc"}>
+                    <h2>{props.info.name}</h2>
+                    <div className="project-tech my-2 d-flex">
+                        {props.info.languages.map((item) => (
+                            <p className="badge rounded-pill">{item}</p>
+                        ))}
+                    </div>
+                    <p className='lead'>{props.info.desc}</p>
+                </div>
             </div>
-            
         </div>
     );
 }

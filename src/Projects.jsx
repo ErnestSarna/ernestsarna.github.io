@@ -1,44 +1,30 @@
 import Project from "./Project";
 
 function Projects(){
-    const quotingTool = {
+    const quotingToolInfo = {
+        name: 'Quoting Tool',
+        languages: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'JQuery'],
         path: '/quoting_tool/',
-        desc: 'test test test testtest test test tt test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test test',
+        desc: 'te testtest test test test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test test',
     };
 
-    const fedora = {
+    const fedoraInfo = {
+        name: <a href="http://project.fedora.mom/" target="_blank" rel="noreferrer" title="Fedora Learning">Fedora Learning</a>,
+        languages: ['React', 'CSS', 'Node.js', 'SQL'],
         path: '/fedora/',
-        desc: 'test test test testtest test test tt test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test test',
+        desc: 'test test testtetest testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test test',
     };
 
     return(
-        <div>
-            <h1 style={{backgroundColor: '#4B0012'}}>Projects</h1>
+        <div style={{backgroundColor: '#4B0012'}}>
+            <h1>Projects</h1>
         
-            <div id="projects-display" className="pb-5">
-                <div className="project left my-3" >
-                    <h2>Quoting Tool</h2>
-                    <div className="project-tech my-2 d-flex">
-                        <p className="badge rounded-pill">HTML</p>
-                        <p className="badge rounded-pill">CSS</p>
-                        <p className="badge rounded-pill">Bootstrap</p>
-                        <p className="badge rounded-pill">JavaScript</p>
-                        <p className="badge rounded-pill">JQuery</p>
-                    </div>
-                    <Project desc={quotingTool.desc} imgSrc={quotingTool.path} reverse={false} />
-                </div>
+            <div className="left py-5">
+                <Project info={quotingToolInfo} reverse={false} />
             </div>
-            <div id="projects-display" className="right pb-5">
-                <div className="project mb-3">
-                    <h2><a href="http://project.fedora.mom/" target="_blank" rel="noreferrer" title="Fedora Learning">Fedora Learning</a></h2>
-                    <div className="project-tech my-2 d-flex">
-                        <p className="badge rounded-pill">React</p>
-                        <p className="badge rounded-pill">CSS</p>
-                        <p className="badge rounded-pill">Node.js</p>
-                        <p className="badge rounded-pill">SQL</p>
-                    </div>
-                    <Project desc={fedora.desc} imgSrc={fedora.path} reverse={true} />
-                </div>
+            
+            <div className="right py-5">
+                <Project info={fedoraInfo} reverse={true} />
             </div>
         </div>
     );
