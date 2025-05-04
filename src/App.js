@@ -1,8 +1,8 @@
 import './bootstrap.css';
 import './App.css';
-import Footer from './Footer.jsx';
 import Intro from './Intro.jsx';
 import Projects from './Projects.jsx';
+import Footer from './Footer.jsx';
 
 function App() {
   return (
