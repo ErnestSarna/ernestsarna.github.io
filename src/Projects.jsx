@@ -3,15 +3,15 @@ import Project from "./Project";
 function Projects(){
     const quotingToolInfo = {
         name: 'Quoting Tool',
-        languages: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'JQuery'],
-        path: '/quoting_tool/',
+        languages: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'JQuery', 'XrmToolBox'],
+        path: '/portfolio-website/quoting_tool/',
         desc: 'te testtest test test test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test test',
     };
 
     const fedoraInfo = {
         name: <a href="http://project.fedora.mom/" target="_blank" rel="noreferrer" title="Fedora Learning">Fedora Learning</a>,
-        languages: ['React', 'CSS', 'Node.js', 'SQL'],
-        path: '/fedora/',
+        languages: ['React', 'CSS', 'Node.js', 'Postgres SQL'],
+        path: '/portfolio-website/fedora/',
         desc: 'test test testtetest testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test testtest test test test',
     };
 

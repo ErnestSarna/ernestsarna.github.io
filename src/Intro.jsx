@@ -39,10 +39,7 @@ function Intro(){
             <div id="intro">
                     <h1 className="display-1">Ernest Sarna</h1>
                     <p className="lead">
-                    Software Engineering graduate from the University of Calgary with a strong foundation in full-stack development and expertise in database management. 
-                    Proficient in both front-end and back-end development, with a particular emphasis on front-end technologies. 
-                    Demonstrates practical, hands-on experience through a portfolio of diverse software projects. 
-                    Committed to continuous learning, driving impactful contributions, and fostering effective collaboration to ensure the success of team objectives.
+                        Hi, I'm a Software Engineering graduate from the University of Calgary with a passion for building clean, functional, and engaging digital experiences. I specialize in full-stack development, with a particular love for front-end technologies and creating intuitive user interfaces. Along the way, I’ve built a variety of projects that showcase my skills in both front-end and back-end development, as well as database design. I'm always looking to learn something new, collaborate with others, and contribute to meaningful work that has real-world applications.
                     </p>
             </div>
             <div className="skills ms-4">
