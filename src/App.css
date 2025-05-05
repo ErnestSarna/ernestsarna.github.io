@@ -78,6 +78,10 @@ i{
   padding-right: 15%;
 }
 
+.project-tech{
+  flex-wrap: wrap;
+}
+
 .project-tech > p{
   margin-right: 0.5em;
   border: 2px solid #E0E0E0;
@@ -121,7 +125,7 @@ img:hover{
   opacity: 0.5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .background{
     flex-direction: column;
   }
@@ -161,8 +165,9 @@ img:hover{
     align-items: center;
   }
 
-  .desc > h2{
+  .desc{
     text-align: center;
+    margin: 0 !important;
   }
 
   .desc .lead{
@@ -170,7 +175,6 @@ img:hover{
   }
 
   .project-tech{
-    flex-wrap: wrap;
     justify-content: center;
   }
 
