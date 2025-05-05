@@ -10,7 +10,7 @@ function Projects(){
             <>
             Custom Microsoft Dynamics web application designed to streamline the creation of roofing quotes for sales teams. 
             The project focused on enhancing efficiency, accuracy, and user experience through a responsive interface built with Bootstrap and interactive JavaScript features. 
-            A key functionality included the ability to generate professional-grade <a href="/Software_Resume.pdf" download="Quoting Tool Example PDF" title="Example PDF">PDFs</a> of quotes using html2canvas and jsPDF, ensuring consistent formatting and simplifying document management.
+            A key functionality included the ability to generate professional-grade <a href="https://drive.google.com/file/d/1CRLPFn-6PZO1AZ_7dMleeGx8l_BaTVIc/view?usp=sharing" download="Quoting Tool Example PDF" target="_blank" rel="noreferrer" title="Example PDF">PDFs</a> of quotes using html2canvas and jsPDF, ensuring consistent formatting and simplifying document management.
             </>
         ),
     };

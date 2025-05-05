@@ -161,6 +161,10 @@ img:hover{
     align-items: center;
   }
 
+  .desc > h2{
+    text-align: center;
+  }
+
   .desc .lead{
     text-align: left;
   }
@@ -181,7 +185,7 @@ img:hover{
   }
 
   img:hover {
-    transform: scale(1); /* Reduced zoom for smaller screens */
+    transform: scale(1);
   }
 
   .image-button {
