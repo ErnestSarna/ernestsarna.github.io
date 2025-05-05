@@ -22,7 +22,7 @@ function Project(props){
     return (
         <div style={props.reverse ? {flexDirection: 'row-reverse'} : {flexDirection: 'row'}} className='project d-flex justify-content-flex-start mb-2'>
             <div>
-                <img src={source} alt='project display' width="600" height="300" style={{borderRadius: "0.3rem"}}></img>
+                <img src={source} alt='project display' width="600" height="auto" style={{borderRadius: "0.3rem"}}></img>
                 <div className='d-flex justify-content-center mt-2'>
                     <button onClick={handleBack} className='image-button my-auto p-1 me-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
