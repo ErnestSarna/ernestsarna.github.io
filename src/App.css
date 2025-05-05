@@ -16,6 +16,7 @@ a{
   background-color: #2E2E2E;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-bottom: 5em;
   border-top: 5px solid #4B0012;
 }

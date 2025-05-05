@@ -14,7 +14,7 @@ function Project(props){
         }
     }
     function handleForward(){
-        if(activeImage < 5){
+        if(activeImage < props.info.numOfImgs){
             setActiveImage(activeImage + 1);
         }
     }
